@@ -1,0 +1,121 @@
+body {
+    font-family: 'Kanit', sans-serif;
+}
+@font-face {
+    font-family: "Corbel";
+    src: url("/assets/Corbel.ttf");
+}
+.primaryBG {
+    background-color: #17607D !important;
+    color: #FFFFFF !important;
+}
+.primaryBT {
+    background-color: #17607D !important;
+    color: #FFFFFF !important;
+}
+.primaryBT:hover {
+    background-color: #14526B !important;
+    color: #F5F5F5 !important;
+}
+.primaryOutlineBT {
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: #17607D !important;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #17607D;
+}
+.primaryOutlineBT:hover {
+    background-color: #14526B !important;
+    color: #FFFFFF !important;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #14526B;
+}
+.primaryTXT {
+    color: #333333 !important;
+}
+.secondaryTXT {
+    color: #666666 !important;
+}
+.clickableTXT {
+    color: #333333 !important;
+}
+.clickableTXT:hover {
+    color: #666666 !important;
+}
+.primaryLink {
+    color: #007FFF !important;
+}
+.primaryVLink {
+    color: #004080 !important;
+}
+.primaryTxtPromote {
+    color: #17607D !important;
+    font-weight: 400;
+}
+.intersectPromote {
+    font-weight: 400;
+    font-size: calc(1.475rem + 1.7vw);
+}
+.pnmTxtPromote {
+    color: #FFC600 !important;
+    font-family: Prompt, sans-serif;
+}
+.forestexoTxtPromote1 {
+    color: #d8cd25 !important;
+}
+.forestexoTxtPromote2 {
+    color: #024826 !important;
+}
+.gradientBG {
+    background-image: linear-gradient(to bottom, #A2C48D, #6d9c50) !important;
+}
+.invertFilter {
+    filter: invert(100%);
+}
+.textShadow-1 {
+    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+.thumbnail {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    max-height:360px;
+    margin-bottom: 1rem;
+}
+.thumbnail-top {
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    max-height: 240px;
+    margin-bottom: 1rem;
+}
+.cardHover {
+    transition: background-color 0.5s ease;
+    @media (max-width: 768px) {
+        background-color: rgba(0, 0, 0, 0.25);
+    }
+}
+.cardHover:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.shadowSvg {
+    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+.contactUsCSS {
+    width: 100%;
+    height: 640px;
+    @media (max-width: 768px) {
+        height: 70vh;
+    }
+}
+@media (max-width: 567px){
+    .mobilModal {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+.logoSecondary {
+    color: #17607D;
+    font-weight: 200;
+}

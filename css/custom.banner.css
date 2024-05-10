@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Corbel";
+    src: url("/assets/Corbel.ttf");
+}
+.heroFont-Slogan,
+.heroDice {
+    opacity: 0;
+}
+.heroDice {
+    width: 100%;
+    animation: fadeInOutDice 6s forwards 0s 1, infiniteFade 4s ease infinite 6s;
+    will-change: transform;
+}
+.heroFont-Slogan {
+    font-family: "Corbel";
+    color: #17607D;
+    padding-left: 24px;
+    letter-spacing: 24px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+    font-size: 3.5rem !important;
+    font-weight: 200;
+    animation: fadeIn 2s ease forwards 4s;
+    @media (max-width: 1600px) {
+        font-size: 3rem !important;
+    }
+    @media (max-width: 1400px) {
+        font-size: 2.75rem !important;
+    }
+    @media (max-width: 1280px) {
+        font-size: 2.5rem !important;
+        padding-left: 16px;
+        letter-spacing: 16px;
+    }
+    @media (max-width: 992px) {
+        font-size: 2rem !important;
+        padding-left: 16px;
+        letter-spacing: 16px;
+    }
+    @media (max-width: 880px) {
+        font-size: 1.5rem !important;
+        padding-left: 16px;
+        letter-spacing: 16px;
+    }
+    @media (max-width: 768px) {
+        padding-left: 12px;
+        letter-spacing: 12px;
+    }
+    @media (max-width: 640px) {
+        font-size: 1.25rem !important;
+        padding-left: 10px;
+        letter-spacing: 10px;
+    }
+    @media (max-width: 576px) {
+        font-size: 12px !important;
+        padding-left: 8px;
+        letter-spacing: 8px;
+        font-weight: 500;
+    }
+}
+.heroBackground {
+    background: linear-gradient(180deg, #BDE4F3, #D3EDF7, #E9F6FB, #FFFFFF);
+	background-size: 400% 400%;
+	animation: gradientAnimation 15s ease infinite;
+}
+#heroDice {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+#heroSlogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-left: 0px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes gradientAnimation {
+    0% {
+		background-position: 50% 0%;
+	}
+	50% {
+		background-position: 50% 100%;
+	}
+	100% {
+		background-position: 50% 0%;
+	}
+}
+@keyframes fadeToOpacity20 {
+    0% { opacity: 1; }
+    100% { opacity: 0.2; }
+}
+@keyframes fadeInOutDice {
+    0% { opacity: 0; }
+    16% { opacity: 0.8; }
+    33% { opacity: 0.2; }
+    50% { opacity: 0.8; }
+    67% { opacity: 0.2; }
+    83% { opacity: 0.8; }
+    100% { opacity: 0.2; }
+}
+@keyframes infiniteFade {
+    0%, 100% {opacity: 0.2;}
+    50% {opacity: 0.25;}
+}
+#scrollIndicator {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    animation: fadeInOut 2s ease 6s infinite;
+    display: flex;
+    align-items: center;
+}
+#scrollIndicator span {
+    margin-right: 5px;
+}
+#scrollIndicator svg {
+    width: 30px;
+    height: auto;
+}
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}

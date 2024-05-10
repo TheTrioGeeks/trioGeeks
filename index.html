@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="th">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trio Geeks - TH</title>
+        <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+        <link rel="stylesheet" href="/css/custom.banner.css">
+        <link rel="stylesheet" href="/css/custom.style.css">
+    </head>
+    <body>
+        <!-- NavBar -->
+        <div class="container-fluid bg-body sticky-top border-bottom shadow-sm">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand d-flex align-items-center gap-2" href="/index.html">
+                        <span class="d-flex align-items-center gap-1 fs-4 clickableTXT">
+                            <img id="ttgIcon" src="/img/dice-icon.png" width="32" height="32" alt="the trio geeks icon">
+                            TRIO
+                            <span class="logoSecondary">GEEKS</span>
+                        </span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a href="#" class="nav-link active clickableTXT" aria-current="page">Home</a></li>
+                            <li class="nav-item"><a href="#services" class="nav-link clickableTXT">Our Offerings</a></li>
+                            <li class="nav-item"><a href="#about" class="nav-link clickableTXT">About Us</a></li>
+                            <li class="nav-item"><a href="#customers" class="nav-link clickableTXT">Our Client's Success</a></li>
+                            <li class="nav-item"><a href="#contact" class="nav-link clickableTXT">Contact Us</a></li>
+                        </ul>
+                        <!-- <ul class="nav nav-pills align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link clickableTXT ps-0" href="#" onclick="switchLanguage('en')">
+                                    <span class="flag-icon flag-icon-gb"></span>
+                                </a>
+                            </li>
+                        </ul> -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- HeroBanner -->
+        <div class="container-fluid heroBackground" style="height: 95vh;">
+            <div class="row justify-content-center align-items-center text-center heroPadding">
+                <div id="heroDice" class="col-auto">
+                    <img src="/img/dice-icon.png" class="heroDice" alt="the trio geeks icon">
+                </div>
+                <div id="heroSlogan" class="col-12">
+                    <p class="heroFont-Slogan">SOLUTION SHAPES SUCCESS</p>
+                </div>
+            </div>
+        </div>
+        <div id="scrollIndicator">
+            <span>Scroll down</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+                <path d="M3.204 5h9.592L8 10.481zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659"/>
+            </svg>
+        </div>
+        <div id="services"></div>
+
+        <!-- Services -->
+        <div class="container px-4 py-5">
+            <h2 class="pb-2 border-bottom primaryTXT">OUR OFFERINGS</h2>
+            <p class="lead primaryTXT">
+                Empowering dreams at every scale! We drive change and deliver value through e-retailing, eCommerce, digital transformation, and beyond for all our clients.
+            </p>
+            
+            <div class="row align-items-md-stretch g-4">
+                    <div class="col">
+                        <div class="row row-cols-1 row-cols-sm-3">
+                            <div class="col d-flex flex-column gap-2">
+                                <img src="/img/service01.png" class="d-block mx-lg-auto img-fluid rounded-3 shadow thumbnail" alt="Live streaming setup">
+                                <h4 class="fw-semibold mb-0 text-body-emphasis primaryTXT">Online Boardcasting Solution</h4>
+                                <p class="text-body-secondary primaryTXT">Take your SME business global with online broadcasting solution! Reach global audiences anytime, anywhere with live streaming. Share events, demos, and even pet moments effortlessly, captivating viewers worldwide.</p>
+                            </div>
+                    
+                            <div class="col d-flex flex-column gap-2">
+                                <img src="/img/service02.png" class="d-block mx-lg-auto img-fluid rounded-3 shadow thumbnail" alt="E-commerce website setup">
+                                <h4 class="fw-semibold mb-0 text-body-emphasis primaryTXT">E-Commerce & Omni-Channel Solutions</h4>
+                                <p class="text-body-secondary primaryTXT">Boost your business with our e-commerce solution service! Integrate online storefronts, secure payment processing, and user-friendly interfaces effortlessly. Improve your digital presence and drive growth with our comprehensive e-commerce solution.</p>
+                            </div>
+                    
+                            <div class="col d-flex flex-column gap-2">
+                                <img src="/img/service03.png" class="d-block mx-lg-auto img-fluid rounded-3 shadow thumbnail" alt="Omni-channel setup">
+                                <h4 class="fw-semibold mb-0 text-body-emphasis primaryTXT">E-POS</h4>
+                                <p class="text-body-secondary primaryTXT">Transforms business operations, enhances customer experiences, and maintains competitiveness by strategically adopting digital technologies and processes. All with POS integration.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div id="about"></div>
+        </div>
+
+        <!-- AboutUs -->
+        <div class="container my-5">
+            <div id="aboutUsSection" class="text-center bg-body-tertiary rounded-3 px-5 pt-5 pb-3">
+                <h1 class="text-body-emphasis primaryTXT">About Us</h1>
+                <p id="aboutUs" class="lead primaryTXT">
+                    We are a trio of friends driven by a passion for empowering SME businesses through e-Retailer, digital transformation, Omni-channel, eCommerce, and all technical initiatives. Our goal is to deliver tailored solutions tailored for businesses of any scale, offered at an ethical and affordable price. We leverage our solutions through partnerships with industry leaders such as Adobe, Shopify, Odoo, and more to create an impactful and comprehensive experiences to enhance our clients' businesses. 
+                </p>
+
+                <!-- Team -->
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-body">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <div class="mb-2">
+                                    <img src="/img/sq-imgPro01.jpg" alt="profile image" width="120" height="120" class="rounded-circle border border-white border-5 shadow">
+                                </div>
+                                <strong class="d-inline-block my-2 text-primary-emphasis primaryTXT">CEO</strong>
+                                <h3 class="mb-1 primaryTXT">Mook</h3>
+                                <p class="card-text mb-auto text-start primaryTXT">10+ years of experience in Retail and eCommerce across B2B, B2C, and C2C sectors. Successfully led projects such as CMG Brand.com, Pet 'N Me Omni-channel, International Platform Shopee, Railway Predictive model Vodafone, and more.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-body">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <div class="mb-2">
+                                    <img src="/img/sq-imgPro02.png" alt="profile image" width="120" height="120" class="rounded-circle border border-white border-5 shadow">
+                                </div>
+                                <strong class="d-inline-block my-2 text-primary-emphasis primaryTXT">COO</strong>
+                                <h3 class="mb-1 primaryTXT">Nat</h3>
+                                <p class="card-text mb-auto text-start primaryTXT">10 years experience as a Project Manager in international company, working closely with Online Sales and Marketing team in multi-languages website development, CRM, Booking engine, assisted launching online campaign.</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-body">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <div class="mb-2">
+                                    <img src="/img/sq-imgPro03.jpg" alt="profile image" width="120" height="120" class="rounded-circle border border-white border-5 shadow">
+                                </div>
+                                <strong class="d-inline-block my-2 text-primary-emphasis primaryTXT">CTO</strong>
+                                <h3 class="mb-1 primaryTXT">Yong</h3>
+                                <p class="card-text mb-auto text-start primaryTXT">5+ years of experience in delivering IT solution and software development, successfully tackled a diverse array of projects, irrespective of their scale. Expert in leveraging technology to devise and implement effective solutions to complex problems.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="customers"></div>
+        </div>
+
+        <!-- Testimonial -->
+        <div class="container px-4 py-5">
+            <h2 class="pb-2 border-bottom">Our Client's Success</h2>
+        
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                <div class="container-fluid">
+                    <div class="col mb-3" >
+                        <a href="/forestexo.html">
+                            <div class="card text-bg-dark shadow-lg rounded-4 cardHover">
+                                <img src="/img/sq480-testimonial01.png" class="card-img rounded-4" alt="...">
+                                <div class="card-img-overlay rounded-4 p-5 pb-3 cardHover d-flex flex-column">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-quote shadowSvg" viewBox="0 0 16 16">
+                                        <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/>
+                                    </svg>
+                                    <div>
+                                        <h3 class="card-title pt-5 mt-4 mb-4 fw-bold textShadow-1">Pet Live Streaming</h3>
+                                        <p class="card-text textShadow-1">Revolutionise our client Exotic Pet Experience: From Local to Global with Live Broadcasting!</p>
+                                        <p class="card-text textShadow-1"><small>Forest Exotic</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- <h4 class="fw-semibold mb-0 text-body-emphasis primaryTXT">Pet Live streaming</h4>
+                    <p class="text-body-secondary primaryTXT">Revolutionise our client Exotic Pet Experience: From Local to Global with Live Broadcasting!</p> -->
+                </div>
+                
+                <div class="container-fluid">
+                    <div class="col mb-3" >
+                        <a href="/pnm.html">
+                            <div class="card text-bg-dark shadow-lg rounded-4 cardHover">
+                                <img src="/img/sq480-testimonial02.png" class="card-img rounded-4" alt="...">
+                                <div class="card-img-overlay rounded-4 p-5 pb-3 cardHover d-flex flex-column">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-quote shadowSvg" viewBox="0 0 16 16">
+                                        <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/>
+                                    </svg>
+                                    <h3 class="card-title pt-5 mt-4 mb-4 fw-bold textShadow-1">Omni-channel Pet Retailer</h3>
+                                    <p class="card-text textShadow-1">Evolve Pet Retail: Crafting an Omni-Channel Experience for Pet Lovers Everywhere!</p>
+                                    <p class="card-text textShadow-1"><small>Central Pet 'n Me</small></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- <h4 class="fw-semibold mb-0 text-body-emphasis primaryTXT">Omni-channel Pet Retailer</h4>
+                    <p class="text-body-secondary primaryTXT">Evolve Pet Retail: Crafting an Omni-Channel Experience for Pet Lovers Everywhere!</p> -->
+                </div>
+                
+                <div class="container-fluid">
+                    <div class="col mb-3" >
+                        <a href="/pnm.html">
+                            <div class="card text-bg-dark shadow-lg rounded-4 cardHover">
+                                <img src="/img/sq480-testimonial03.png" class="card-img rounded-4" alt="...">
+                                <div class="card-img-overlay rounded-4 p-5 pb-3 cardHover d-flex flex-column">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-quote shadowSvg" viewBox="0 0 16 16">
+                                        <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/>
+                                    </svg>
+                                    <h3 class="card-title pt-5 mt-4 mb-4 fw-bold textShadow-1">E-POS</h3>
+                                    <p class="card-text textShadow-1">Upgrade Your Retail: Transitioning from Offline to Online Connectivity Across All Channels!</p>
+                                    <p class="card-text textShadow-1"><small>Central Pet 'n Me</small></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- <h4 class="fw-semibold mb-0 text-body-emphasis primaryTXT">E-POS</h4>
+                    <p class="text-body-secondary primaryTXT">Upgrade Your Retail: Transitioning from Offline to Online Connectivity Across All Channels!</p> -->
+                </div>
+            </div>
+
+            <!-- <h2 class="pb-2 border-bottom">Our Customers</h2>
+            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                <div class="text-center">
+                    <img src="https://picsum.photos/120?random=1" alt="Bootstrap" width="120" height="120" class="rounded-circle border border-white">
+                </div>
+                <div class="text-center">
+                    <img src="https://picsum.photos/120?random=2" alt="Bootstrap" width="120" height="120" class="rounded-circle border border-white">
+                </div>
+                <div class="text-center">
+                    <img src="https://picsum.photos/120?random=3" alt="Bootstrap" width="120" height="120" class="rounded-circle border border-white">
+                </div>
+                <div class="text-center">
+                    <img src="https://picsum.photos/120?random=4" alt="Bootstrap" width="120" height="120" class="rounded-circle border border-white">
+                </div>
+            </div> -->
+            <div id="contact"></div>
+        </div>
+
+        <!-- ContactUs -->
+        <div class="container my-5">
+            <div id="contactUs" class="row p-4 pe-lg-0 align-items-center rounded-5 border shadow-lg mx-0">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <h1 class="display-4 fw-bold lh-1 text-body-emphasis primaryTXT">Contact Us</h1>
+                    <p class="lead primaryTXT">Email: thetriogeeks@gmail.com</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                        <button type="button" id="contactUsButton" class="btn primaryBT btn-lg px-4 me-md-2 fw-bold" data-bs-toggle="modal" data-bs-target="#contactUsModal">Contact Form</button>
+                        <div class="modal fade" id="contactUsModal" tabindex="-1" aria-labelledby="contactFormLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered mobilModal">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body px-0 pt-0">
+                                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeYyl21WJTilFJ7qy8Pe-WfWTuyO1K9slODJmHPMFiqtWSmcA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" class="contactUsCSS">Loading…</iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img id="contactImage" src="/img/sq-contactUs.jpg" width="720px" alt="contact us image" class="rounded-5 shadow">
+                </div>
+              </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="container">
+            <footer class="pt-3 mt-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="/index.html" class="nav-link px-2 clickableTXT">Home</a></li>
+                    <li class="nav-item"><a href="/index.html#services" class="nav-link px-2 clickableTXT">Our Offerings</a></li>
+                    <li class="nav-item"><a href="/index.html#about" class="nav-link px-2 clickableTXT">About Us</a></li>
+                    <li class="nav-item"><a href="/index.html#customers" class="nav-link px-2 clickableTXT">Our Client's Success</a></li>
+                    <li class="nav-item"><a href="/index.html#contact" class="nav-link px-2 clickableTXT">Contact Us</a></li>
+                </ul>
+                <p class="text-center primaryTXT">© 2024 The Trio Geeks</p>
+            </footer>
+        </div>
+
+        <!-- Script for language switching -->
+        <script>
+            function switchLanguage(lang) {
+                // Redirect to the respective language page
+                if (lang === 'en') {
+                    window.location.href = 'index_en.html';
+                }
+            }
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="/js/custom.js"></script>
+        <script src="/js/readMore.js"></script>
+    </body>
+</html>
