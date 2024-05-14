@@ -1,7 +1,7 @@
 .div-element {
     width: 100%; /* or specify your desired width */
     height: auto; /* Let the height adjust based on the content */
-    background-image: url('/img/pnmSecondv2.png');
+    background-image: url('/trioGeeks/img/pnmSecondv2.png');
     background-size: cover; /* Cover the entire element */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent background image from repeating */
